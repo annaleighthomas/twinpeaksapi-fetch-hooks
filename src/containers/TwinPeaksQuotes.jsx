@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Load from '../components/app/quote/Load';
 import Quote from '../components/app/quote/Quote';
 import { fetchQuote } from '../services/twinPeaksApi';
